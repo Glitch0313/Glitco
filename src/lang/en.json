@@ -1,0 +1,25 @@
+{
+    "logo": "Glitch",
+    "title": "Harm",
+    "content": "With these steps, you can use i18next for translations and change the route based on the selected language in your React application. The language switcher component will allow users to toggle between different languages, and the translated text will be displayed based on the selected language.",
+    "btn_contact": "Contact US",
+    "home_page": "Home",
+    "about_page": "Admin",
+    "copyright": "Copyright To Glitch 2023",
+    "serv_title": "Services",
+
+    "service1.title": "Programming",
+    "service1.content": "With these steps, you can use i18next for translations and change the route based on the selected language in your React.",
+    "service2.title": "Hacks Script",
+    "service2.content": "With these steps, you can use i18next for translations and change the route based on the selected language in your React.",
+    "service3.title": "Darkweb",
+    "service3.content": "With these steps, you can use i18next for translations and change the route based on the selected language in your React.",
+
+    "delever.head": "Come",
+    "delBox1.title": "What you mean",
+    "delBox2.title": "Nothing Error Code",
+
+    "test.title": "Enter Thing",
+    "test.btn": "Save"
+
+}

@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Tajawal:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: "Tajawal", sans-serif !important;
+  text-align: right;
+}
+
+/* Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+a, a.link {
+  text-decoration: none !important;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none;
+}
+
+.App header {
+  background-color: #001C30;
+  padding: 12px 0;
+}
+.App header .main-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App header .main-head .logo h4 {
+  color: #DAFFFB;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+.App header .main-head .menu {
+  display: flex;
+}
+.App header .main-head .menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.App header .main-head .menu ul li a {
+  color: #DAFFFB;
+  font-size: 16px;
+  font-weight: 600;
+}
+.App .Home {
+  padding: 30px 0;
+  background-color: #272829;
+  height: 100%;
+  margin-bottom: 48px;
+}
+.App .Home .box-text {
+  padding-top: 60px;
+}
+.App .Home .box-text h4 {
+  position: relative;
+  color: #D8D9DA;
+  margin-bottom: 25px;
+  font-size: 35px;
+  font-weight: 600;
+}
+.App .Home .box-text h4::after {
+  content: "";
+  width: 88px;
+  height: 3px;
+  background-color: #176B87;
+  bottom: -7px;
+  right: 0;
+  left: unset;
+  position: absolute;
+}
+.App .Home .box-text p {
+  color: #D8D9DA;
+  line-height: 2rem;
+  margin-bottom: 34px;
+}
+.App .Home .box-img {
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+}
+.App .Home .box-img img {
+  width: 55%;
+}
+.App .Home .btno a {
+  background-color: #001C30;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #FFF;
+  transition: all 0.5s;
+}
+.App .Home .btno a:hover {
+  background-color: #c7f9c5;
+  color: #001C30;
+}
+.App .Services {
+  padding-bottom: 48px;
+}
+.App .Services .serv-head {
+  text-align: center;
+  margin-bottom: 48px;
+  position: relative;
+}
+.App .Services .serv-head h2::after {
+  content: "";
+  width: 105px;
+  height: 3px;
+  background-color: #176B87;
+  bottom: -7px;
+  right: unset;
+  left: 50%;
+  transform: translate(-50%, 5px);
+  position: absolute;
+}
+.App .Services .serv-box {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 8px 6px 6px -3px rgba(86, 86, 86, 0.5);
+  border-radius: 0px 70px;
+  background-color: #686bff;
+  margin-bottom: 25px;
+}
+.App .Services .serv-box .ser-photo {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.App .Services .serv-box .ser-photo img {
+  width: 180px;
+}
+.App .Services .serv-box .ser-txt {
+  position: relative;
+}
+.App .Services .serv-box .ser-txt h3 {
+  color: #1d2168;
+  border: 2px solid #c7f9c5;
+  border-radius: 0px 12px;
+  margin-bottom: 15px;
+  padding: 5px 0;
+}
+.App .Services .serv-box .ser-txt p {
+  color: #f1f1f1;
+}
+.App .Delever {
+  padding: 48px 0;
+  background-color: #D8D9DA;
+}
+.App .Delever .serv-head {
+  text-align: center;
+  margin-bottom: 48px;
+  position: relative;
+}
+.App .Delever .serv-head h2::after {
+  content: "";
+  width: 105px;
+  height: 3px;
+  background-color: #176B87;
+  bottom: -7px;
+  right: unset;
+  left: 50%;
+  transform: translate(-50%, 5px);
+  position: absolute;
+}
+.App .Delever .del-box {
+  background-color: #9d9eff;
+  padding: 20px 30px;
+  border-radius: 0 20px;
+  box-shadow: 8px 6px 6px -3px rgba(86, 86, 86, 0.5);
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.App .Delever .del-box h3 {
+  color: #DAFFFB;
+  margin-bottom: 20px;
+}
+.App .Delever .del-box img {
+  width: 100%;
+}
+.App footer {
+  text-align: center;
+  background-color: #001C30;
+  padding: 15px 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+.App footer p {
+  color: #FFF;
+  margin: 0;
+}
+
+.App.rtl {
+  direction: ltr;
+  text-align: left;
+}
+.App.rtl header .main-head .menu {
+  display: flex;
+}
+.App.rtl header .main-head .menu ul li {
+  margin-left: 20px;
+  margin-right: unset;
+}
+.App.rtl .Home .box-text h4::after {
+  content: "";
+  right: unset;
+  left: 0;
+}
+.App.rtl .Home .box-img {
+  text-align: right;
+}
+
+.Dashboard .header-con {
+  background-color: #272829;
+}
+.Dashboard .header-con .dash-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.Dashboard .header-con .dash-head h3 {
+  color: #c7f9c5;
+}
+.Dashboard .dash-main {
+  background-color: #f1f1f1;
+  padding: 48px 0;
+  direction: ltr;
+}
+.Dashboard .dash-main .colort {
+  width: 185px;
+  border: 2px solid #ff2d2d;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Dashboard .dash-main .colort span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Dashboard .Formy {
+  padding: 48px 0;
+}
+.Dashboard .Formy .formy {
+  direction: ltr;
+  margin-bottom: 30px;
+}
+.Dashboard .Formy .listy {
+  width: 420px;
+  padding: 0px 30px;
+  border: 2px solid #555;
+  margin: 10px auto;
+  direction: ltr;
+}
+.Dashboard .Formy .listy ul li {
+  margin: 15px 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Dashboard .Formy .listy ul li span {
+  background-color: #d7bdbd;
+  padding: 0px 9px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Admin {
+  direction: ltr;
+}
+.Admin .admin-head {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Admin .admin-head h3 {
+  color: #1d2168;
+}
+.Admin form {
+  width: 60%;
+  margin: 10px auto;
+  border: 2px solid #c4ddf0;
+  padding: 40px;
+  border-radius: 40px 0;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .App .Home .box-text {
+    padding-top: 10px;
+  }
+}/*# sourceMappingURL=App.css.map */
